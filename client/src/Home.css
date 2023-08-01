@@ -1,0 +1,72 @@
+.home-container {
+    text-align: center;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px; /* Set the desired height of the navbar */
+  }
+  
+  .nav-left {
+    margin-left: 10px;
+  }
+  
+  .nav-right {
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links li:first-child {
+    margin-left: auto; /* Moves the first link (Home) to the left */
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #ff0000;
+    color: #fff;
+  }
+  
+  .nav-links li a span {
+    margin-right: 5px;
+  }
+  
+  .nav-links li a:hover,
+  .nav-links li a:focus {
+    text-decoration: none;
+    outline: none;
+  }
+  
+  .nav-links li a:active {
+    color: #ff0000;
+  }
+  
